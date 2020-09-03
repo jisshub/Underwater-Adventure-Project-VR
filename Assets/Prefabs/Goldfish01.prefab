@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &7190620792389355405
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190620791478874420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16.83, y: 13.39, z: 19.6}
+  m_Center: {x: 2.24, y: 3.2, z: 0.03}
+--- !u!1 &7190620792140590579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7190620792140590578}
+  - component: {fileID: 7190620792140590580}
+  - component: {fileID: 7190620792140590581}
+  - component: {fileID: 7190620792140590583}
+  m_Layer: 0
+  m_Name: Goldfish01
+  m_TagString: Fish
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7190620792140590578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190620792140590579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -58.616, y: 45.212, z: 669.47}
+  m_LocalScale: {x: 1.1639, y: 1.1639, z: 1.4482408}
+  m_Children:
+  - {fileID: 7190620791479037204}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &7190620792140590580
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190620792140590579}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &7190620792140590581
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190620792140590579}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.86, y: 3.7, z: 5.37}
+  m_Center: {x: 2.28, y: 1.01, z: 0}
+--- !u!114 &7190620792140590583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190620792140590579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a074109dd6a4534fb5585c10cb9689d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+--- !u!1001 &7190620791478908820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7190620792140590578}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_Name
+      value: Goldfish_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 140.4566
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -25.095612
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.9012756
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.19125149
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.011347873
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.98098737
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.030950664
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.9540001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -22.009
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 543.234
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34c560513e2d0400eac2fc91c5045b91, type: 3}
+--- !u!1 &7190620791478874420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 34c560513e2d0400eac2fc91c5045b91,
+    type: 3}
+  m_PrefabInstance: {fileID: 7190620791478908820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7190620791479037204 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 34c560513e2d0400eac2fc91c5045b91,
+    type: 3}
+  m_PrefabInstance: {fileID: 7190620791478908820}
+  m_PrefabAsset: {fileID: 0}
